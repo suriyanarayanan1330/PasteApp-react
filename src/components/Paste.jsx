@@ -94,7 +94,7 @@ const Paste = () => {
                     >
                       {" "}
                       <img
-                        src="src/assets/view-removebg-preview.png"
+                        src="/view-removebg-preview.png"
                         alt="view"
                         className="h-[30px]"
                       />
@@ -105,7 +105,7 @@ const Paste = () => {
                       onClick={() => edit(paste._id)}
                     >
                       <img
-                        src="src/assets/edit.png"
+                        src="/edit.png"
                         alt="edit"
                         className="h-[20px]"
                       />
@@ -117,7 +117,7 @@ const Paste = () => {
                     >
                       {" "}
                       <img
-                        src="src/assets/copy-two-paper-sheets-interface-symbol.png"
+                        src="/copy-two-paper-sheets-interface-symbol.png"
                         alt="copy"
                         className="h-[20px]"
                       />
@@ -128,7 +128,7 @@ const Paste = () => {
                       onClick={() => handledelete(paste._id)}
                     >
                       <img
-                        src="src/assets/delete.png"
+                        src="/delete.png"
                         alt="copy"
                         className="h-[20px]"
                       />
@@ -137,12 +137,12 @@ const Paste = () => {
                    
                    {/* date */}
 
-                  <div className="flex gap-1 items-center"> <img src="src/assets/calendar.png" alt="calendar icon" className="h-[20px]"/> <span className="text-sm ">{formatedDate(paste.createdAt)}</span></div>
+                  <div className="flex gap-1 items-center"> <img src="/calendar.png" alt="calendar icon" className="h-[20px]"/> <span className="text-sm ">{formatedDate(paste.createdAt)}</span></div>
                   </div>
                 </div>
               ))
             ): (
-              <div className="flex items-center justify-center "><img src="src/assets/no-data.png" alt="No data" className="h-[100px] "/></div>
+              <div className="flex items-center justify-center "><img src="/no-data.png" alt="No data" className="h-[100px] "/></div>
             )}
           </ul>
         </div>
